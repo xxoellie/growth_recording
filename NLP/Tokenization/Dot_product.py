@@ -24,9 +24,9 @@ df.iloc[:,:10]
 One way to check for the similarities between sentences is to count the number of overlapping tokens using a dot product."""
 df1 = df.T
 
-df1.sent0.dot(df1.sent1))  #0
-df1.sent0.dot(df1.sent2))  #1
-df1.sent0.dot(df1.sent3))  #1
+df1.sent0.dot(df1.sent1)  #0
+df1.sent0.dot(df1.sent2)  #1
+df1.sent0.dot(df1.sent3)  #1
 
 """If we can measure the bag of words overlap for two vectors, we can get a good estimate of how similar they are in the words they use.      
 And this is a good estimate of how similar they are in meaning"""
