@@ -5,7 +5,7 @@ def isPrime(n):
         if numbers[i] == 1:
             for j in range(i + i, n, i):
                 numbers[j] = 0
-    return numbers
+    return [i for i in range(2,n) if numbers[i]==1]
 
 numbers = isPrime(100000)
 
