@@ -1,8 +1,11 @@
-n = int(input())
-for i in range(n):
+N = int(input())
+count = N
+
+for _ in range(N):
     word = input()
-    for j in range(1, len(word)):
-        if word.find(word[i-1]) > word.find(word[i]):
-            n -= 1
+
+    for i in range(len(word)-1):
+        if word.find(word[i]) > word.find(word[i+1]):
+            count -= 1
             break
-print(n)
+print(count)
