@@ -1,4 +1,4 @@
-\#주요코드.txt
+\#주요코드
 
 
 
@@ -75,20 +75,3 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 venv/
-
-.env
-
-db.sqlite3
-
-.idea/
-
-__pycache__/
-/db_backup.sqlite3
-
-media/
-
-staticfiles/
-
-gis_1ban_gcp
-
-gis_1ban_gcp.pub
